@@ -1,9 +1,9 @@
 /*Star Pattern 1: for input n = 5
-        |    *
-        |   ***
-        |  *****
-        | *******
-        |*********
+        |        *
+        |      * * *
+        |    * * * * *
+        |  * * * * * * *
+        |* * * * * * * * *
 */
 
 import java.util.Scanner;
@@ -15,13 +15,13 @@ public class pattern1 {
         scn.close();
         int sp = n-1;
         int str = 1;
-        for(int i=0;i<n;i++){
+        for(int row=0;row<n;row++){
             // for spaces
-            for(int j=0;j<sp;j++){
+            for(int col=0;col<sp;col++){
                 System.out.print(" ");
             }
             // for star
-            for(int j=0;j<str;j++){
+            for(int col=0;col<str;col++){
                 System.out.print("*");
             }
             sp--;
