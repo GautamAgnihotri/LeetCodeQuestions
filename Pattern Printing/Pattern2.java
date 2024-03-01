@@ -21,7 +21,7 @@ public class Pattern2 {
             // for printing stars 
             for(int col=1;col<=2*row-1;col++){
                 System.out.print(num);
-                if(col<=(2*row-1)/2){
+                if(col<row){
                     num++;
                 } else{
                     num--;
