@@ -1,3 +1,12 @@
+/* Pattern 3 : for n = 5
+    * * * * * * * * *
+      * * * * * * * 
+        * * * * *
+          * * *
+            *
+ 
+*/
+
 import java.util.Scanner;
 
 public class Pattern3{
